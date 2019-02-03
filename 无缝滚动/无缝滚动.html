@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- 轮播区域 -->
+  <div class="banner" id="banner">
+    <!-- 轮播项 -->
+    <div class="content">
+      <ul id="list" class="clearfix">
+        <li>
+          <a href="#">
+            <img src="img/01.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/02.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/03.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/04.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/05.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/06.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/07.jpg">
+          </a>
+        </li>
+        <!-- 这是位置为7的li,和位置0的li长的一样。为了实现无缝滚动 -->
+        <li>
+          <a href="#">
+            <img src="img/01.jpg">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 左按钮 -->
+    <a href="#" id="btnLeft" class="btn btnLeft">&lt;</a>
+    <!-- 右侧按钮 -->
+    <a href="#" id="btnRight" class="btn btnRight">&gt;</a>
+    <!-- 一组小点按钮 -->
+    <div class="control">
+      <a  class="active" href="javascript:"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+    </div>
+  </div>
+  <!-- 引入动画库 -->
+  <script src="move1.1.js"></script>
+  <!-- 引入自己写的js -->
+  <script src="index.js"></script>
+</body>
+
+</html>
